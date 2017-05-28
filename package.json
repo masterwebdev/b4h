@@ -1,16 +1,12 @@
 {
-  "name": "cordova-b4h",
-  "version": "1.0.8-dev",
-  "description": "Cordova Console Plugin",
+  "name": "com.bees4honey.vinscanner",
+  "version": "1.0.0",
+  "description": "Bees4Honey",
   "cordova": {
-    "id": "cordova-b4h",
+    "id": "com.bees4honey.vinscanner",
     "platforms": [
       "ios",
-      "ubuntu",
-      "wp7",
-      "wp8",
-      "windows8",
-      "windows"
+      "android"
     ]
   },
   "repository": {
@@ -22,7 +18,7 @@
   },
   "keywords": [
     "cordova",
-    "console",
+    "vinscanner",
     "ecosystem:cordova",
     "cordova-ios",
     "cordova-ubuntu",
@@ -31,11 +27,7 @@
     "cordova-windows8",
     "cordova-windows"
   ],
-  "scripts": {
-    "test": "npm run jshint",
-    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests"
-  },
-  "author": "Apache Software Foundation",
+  "author": "Bees4Honey",
   "license": "Apache-2.0",
   "engines": {
     "cordovaDependencies": {
@@ -43,8 +35,5 @@
         "cordova": ">100"
       }
     }
-  },
-  "devDependencies": {
-    "jshint": "^2.6.0"
   }
 }
